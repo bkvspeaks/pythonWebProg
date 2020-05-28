@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}Your Meal Suggestion{% endblock %}
+
+  {% block content %}
+<br />
+<br />
+<div class = "meal">
+  <h2>{{result}}</h2>
+  <br />
+  <button onClick="window.location.reload();">Another Suggestion?</button>
+</div>
+</header>
+  {% endblock %}
+
+  {% block footer%}
+  {% endblock %}
